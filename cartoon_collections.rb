@@ -4,8 +4,12 @@ def roll_call_dwarves(names_array)
   }
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(array)
+  new_array = Array.new 
+  array.each {|item|
+  new_array.push("#{item.capitalize}!")
+  }
+  new_array
 end
 
 def long_planeteer_calls# code an argument here
